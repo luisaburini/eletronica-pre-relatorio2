@@ -1,19 +1,19 @@
-* /home/lburini/Documents/EA534/pre-relatorio-2-2/simulacao2.cir
+* /home/lburini/Documents/EA534/pre-relatorio2/pre-relatorio-2-2/simulacao2.cir
 
-* EESchema Netlist Version 1.1 (Spice format) creation date: Sun 26 Aug 2018 18:52:12 -03
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sun 26 Aug 2018 20:19:56 -03
 
 * To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
 * To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
 
 * Sheet Name: /
-T1  Net-_J1-Pad1_ Net-_J1-Pad2_ Net-_D2-Pad2_ GND Net-_D1-Pad2_ Transformer_1P_SS		
-D1  Net-_C1-Pad1_ Net-_D1-Pad2_ D		
-D2  Net-_C1-Pad1_ Net-_D2-Pad2_ D		
-C1  Net-_C1-Pad1_ GND CP1		
-R1  Net-_D3-Pad1_ Net-_C1-Pad1_ R		
-D3  Net-_D3-Pad1_ GND D_Zener		
-R2  Net-_D3-Pad1_ GND R		
-J2  Net-_D3-Pad1_ GND Conn_01x02		
-J1  Net-_J1-Pad1_ Net-_J1-Pad2_ Conn_01x02		
+T1  1 2 4 6 3 Transformer_1P_SS		
+D1  5 3 D		
+D2  5 4 D		
+C1  5 6 CP1		
+R1  7 5 R		
+D3  7 6 D_Zener		
+R2  7 6 R		
+J2  7 6 Conn_01x02		
+J1  1 2 Conn_01x02		
 
 .end

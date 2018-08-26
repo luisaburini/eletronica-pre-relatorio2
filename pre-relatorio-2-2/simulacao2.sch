@@ -34,10 +34,10 @@ LIBS:valves
 LIBS:simulacao2-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr User 5906 4031
 encoding utf-8
 Sheet 1 1
-Title "Simulacao com Diodo Zenner"
+Title "Simulacao Fonte CC com Diodo Zener"
 Date "2018-08-26"
 Rev "V1.0"
 Comp ""
