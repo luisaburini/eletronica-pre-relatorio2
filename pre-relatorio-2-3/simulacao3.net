@@ -1,0 +1,48 @@
+( { EESchema Netlist Version 1.1 created  Sun 26 Aug 2018 18:51:21 -03 }
+ ( /5B83591D $noname  T1 Transformer_1P_SS
+  (    1 Net-(J1-Pad1) )
+  (    2 Net-(J1-Pad2) )
+  (    3 Net-(D2-Pad2) )
+  (    4 GND )
+  (    5 Net-(D1-Pad2) )
+ )
+ ( /5B8359A9 $noname  R1 R
+  (    1 Net-(D3-Pad1) )
+  (    2 Net-(C1-Pad1) )
+ )
+ ( /5B835A68 $noname  R2 R
+  (    1 Net-(J2-Pad1) )
+  (    2 GND )
+ )
+ ( /5B835AD9 $noname  C1 CP1
+  (    1 Net-(C1-Pad1) )
+  (    2 GND )
+ )
+ ( /5B835B36 $noname  D3 D_Zener
+  (    1 Net-(D3-Pad1) )
+  (    2 GND )
+ )
+ ( /5B835BE6 $noname  Q1 QNPN
+  (    1 Net-(C1-Pad1) )
+  (    2 Net-(D3-Pad1) )
+  (    3 Net-(J2-Pad1) )
+  (    4 GND )
+ )
+ ( /5B83619A $noname  D1 D
+  (    1 Net-(C1-Pad1) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /5B836211 $noname  D2 D
+  (    1 Net-(C1-Pad1) )
+  (    2 Net-(D2-Pad2) )
+ )
+ ( /5B836370 $noname  J1 Conn_01x02
+  (    1 Net-(J1-Pad1) )
+  (    2 Net-(J1-Pad2) )
+ )
+ ( /5B8363DC $noname  J2 Conn_01x02
+  (    1 Net-(J2-Pad1) )
+  (    2 GND )
+ )
+)
+*
